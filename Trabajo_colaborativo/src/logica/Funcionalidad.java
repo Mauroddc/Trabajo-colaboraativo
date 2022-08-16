@@ -1,8 +1,11 @@
 package logica;
 
+import java.util.LinkedList;
+
 public class Funcionalidad {
 	private String nombre;
 	private String descripcion;
+	LinkedList<Rol> listaRoles = new LinkedList <Rol>();
 	
 	public Funcionalidad(String nombre, String descripcion) {
 		super();

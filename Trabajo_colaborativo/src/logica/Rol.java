@@ -5,6 +5,7 @@ import java.util.LinkedList;
 public class Rol {
 
 	LinkedList<Persona> listaPersona = new LinkedList <Persona>();
+	LinkedList<Funcionalidad> listaFuncionalidad = new LinkedList <Funcionalidad>();
 	private int id_Rol;
 	private String nombre;
 	private String descripcion;
@@ -46,8 +47,5 @@ public class Rol {
 		return "Rol [id_Rol=" + id_Rol + ", nombre=" + nombre + ", descripcion=" + descripcion + ", listaPersona="
 				+ listaPersona + "]";
 	}
-	
-	
-	
-	
+		
 }
